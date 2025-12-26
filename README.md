@@ -4,9 +4,10 @@ A modern, animated landing page for FoxyMoron, an award-winning creative agency.
 
 ## Preview
 
-[![Watch the Demo](https://img.youtube.com/vi/0i4igCCbdLM/maxresdefault.jpg)](https://youtu.be/0i4igCCbdLM)
-
-▶️ [Watch Full Demo on YouTube](https://youtu.be/0i4igCCbdLM)
+<a href="https://youtu.be/0i4igCCbdLM">
+  <img src="assets/images/preloader.png" alt="Watch the Demo" width="100%">
+  <p align="center">▶️ <strong>Click to Watch Full Demo on YouTube</strong></p>
+</a>
 
 ### Screenshots
 
