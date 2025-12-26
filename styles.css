@@ -48,6 +48,20 @@ a {
     cursor: none;
 }
 
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+    outline: 2px solid var(--accent-rose);
+    outline-offset: 2px;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: none;
+}
+
 ul {
     list-style: none;
 }
