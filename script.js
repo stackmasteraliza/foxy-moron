@@ -1,6 +1,8 @@
 // ============================================
 // FoxyMoron - JavaScript Animations & Interactions
 // ============================================
+// Version: 1.0.0
+// Author: FoxyMoron Development Team
 
 document.addEventListener('DOMContentLoaded', () => {
     // Initialize all modules
