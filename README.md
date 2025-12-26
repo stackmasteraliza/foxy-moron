@@ -4,7 +4,9 @@ A modern, animated landing page for FoxyMoron, an award-winning creative agency.
 
 ## Preview
 
-https://github.com/user-attachments/assets/preview.mp4
+[![Watch the Demo](https://img.youtube.com/vi/0i4igCCbdLM/maxresdefault.jpg)](https://youtu.be/0i4igCCbdLM)
+
+▶️ [Watch Full Demo on YouTube](https://youtu.be/0i4igCCbdLM)
 
 ### Screenshots
 
@@ -117,6 +119,10 @@ animated_home/
 - Enhanced responsive design with improved touch targets
 - Added SEO meta tags and social media meta properties
 - Improved focus states and keyboard navigation support
+
+## Contributing
+
+We welcome contributions to improve this project! Please feel free to submit issues and pull requests.
 
 ## License
 
