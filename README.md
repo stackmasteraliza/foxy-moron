@@ -41,8 +41,11 @@ https://github.com/user-attachments/assets/preview.mp4
 - **Team Section** - Leadership team profiles with social links
 - **Awards Marquee** - Auto-scrolling awards ticker
 - **Contact Form** - Elegant form with floating labels
-- **Responsive Design** - Works on all device sizes
+- **Responsive Design** - Optimized for all device sizes with touch-friendly targets
 - **Dark Theme** - Modern dark color scheme with pink accents
+- **Accessibility** - Keyboard navigation, ARIA labels, and screen reader support
+- **Performance** - Lazy loading images and optimized scroll events
+- **SEO Optimized** - Meta tags and semantic HTML structure
 
 ## Tech Stack
 
@@ -106,6 +109,14 @@ animated_home/
 - Firefox (latest)
 - Safari (latest)
 - Edge (latest)
+
+## Recent Updates
+
+- Added comprehensive accessibility features (ARIA labels, keyboard navigation, skip links)
+- Implemented performance optimizations (lazy loading, scroll throttling)
+- Enhanced responsive design with improved touch targets
+- Added SEO meta tags and social media meta properties
+- Improved focus states and keyboard navigation support
 
 ## License
 
