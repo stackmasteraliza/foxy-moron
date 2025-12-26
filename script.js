@@ -122,11 +122,13 @@ const Navigation = {
         // Mobile menu toggle
         if (this.navToggle) {
             this.navToggle.addEventListener('click', () => this.toggleMenu());
+            this.navToggle.addEventListener('keydown', (e) => this.handleKeyDown(e));
         }
 
         // Nav links click
         this.navLinks.forEach(link => {
             link.addEventListener('click', (e) => this.handleNavClick(e));
+            link.addEventListener('keydown', (e) => this.handleKeyDown(e));
         });
 
         // Close menu on outside click
@@ -135,6 +137,9 @@ const Navigation = {
                 this.closeMenu();
             }
         });
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => this.handleGlobalKeyDown(e));
     },
 
     handleScroll() {
@@ -187,6 +192,25 @@ const Navigation = {
                 targetSection.scrollIntoView({ behavior: 'smooth' });
                 this.closeMenu();
             }
+        }
+    },
+
+    handleKeyDown(e) {
+        // Handle Enter and Space keys for nav toggle and links
+        if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            if (e.target === this.navToggle) {
+                this.toggleMenu();
+            } else if (e.target.classList.contains('nav-link')) {
+                this.handleNavClick(e);
+            }
+        }
+    },
+
+    handleGlobalKeyDown(e) {
+        // Close menu with Escape key
+        if (e.key === 'Escape' && this.navMenu.classList.contains('active')) {
+            this.closeMenu();
         }
     }
 };
